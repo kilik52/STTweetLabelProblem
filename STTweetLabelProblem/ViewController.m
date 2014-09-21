@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MyTableViewCell.h"
 
 @interface ViewController ()
 
@@ -40,10 +41,9 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    MyTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
-    UILabel *contentLabel = (UILabel*)[cell.contentView viewWithTag:1];
-    [contentLabel setText:@"A Long long long A Long long long A Long long long A Long long long A Long long long A Long long long A Long long long A Long long long A Long long long Text."];
+    [cell.titleLabel setText:@"A Long long long A Long long long A Long long long A Long long long A Long long long A Long long long A Long long long A Long long long A Long long long Text, @kilik52."];
     
     // Make sure the constraints have been added to this cell, since it may have just been created from scratch
     [cell setNeedsUpdateConstraints];

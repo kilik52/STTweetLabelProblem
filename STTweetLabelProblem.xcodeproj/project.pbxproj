@@ -16,6 +16,7 @@
 		B0322A5619CEA11000F9FDA8 /* STTweetLabelProblemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0322A5519CEA11000F9FDA8 /* STTweetLabelProblemTests.m */; };
 		B0322A6419CEA11A00F9FDA8 /* STTweetLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0322A6119CEA11A00F9FDA8 /* STTweetLabel.m */; };
 		B0322A6519CEA11A00F9FDA8 /* STTweetTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = B0322A6319CEA11A00F9FDA8 /* STTweetTextStorage.m */; };
+		B0E063D719CEA43C0013C8D9 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E063D619CEA43C0013C8D9 /* MyTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		B0322A6119CEA11A00F9FDA8 /* STTweetLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTweetLabel.m; sourceTree = "<group>"; };
 		B0322A6219CEA11A00F9FDA8 /* STTweetTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTweetTextStorage.h; sourceTree = "<group>"; };
 		B0322A6319CEA11A00F9FDA8 /* STTweetTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTweetTextStorage.m; sourceTree = "<group>"; };
+		B0E063D519CEA43C0013C8D9 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		B0E063D619CEA43C0013C8D9 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				B0322A3E19CEA11000F9FDA8 /* AppDelegate.m */,
 				B0322A4019CEA11000F9FDA8 /* ViewController.h */,
 				B0322A4119CEA11000F9FDA8 /* ViewController.m */,
+				B0E063D519CEA43C0013C8D9 /* MyTableViewCell.h */,
+				B0E063D619CEA43C0013C8D9 /* MyTableViewCell.m */,
 				B0322A4319CEA11000F9FDA8 /* Main.storyboard */,
 				B0322A4619CEA11000F9FDA8 /* Images.xcassets */,
 				B0322A4819CEA11000F9FDA8 /* LaunchScreen.xib */,
@@ -240,6 +245,7 @@
 				B0322A4219CEA11000F9FDA8 /* ViewController.m in Sources */,
 				B0322A6419CEA11A00F9FDA8 /* STTweetLabel.m in Sources */,
 				B0322A6519CEA11A00F9FDA8 /* STTweetTextStorage.m in Sources */,
+				B0E063D719CEA43C0013C8D9 /* MyTableViewCell.m in Sources */,
 				B0322A3F19CEA11000F9FDA8 /* AppDelegate.m in Sources */,
 				B0322A3C19CEA11000F9FDA8 /* main.m in Sources */,
 			);
@@ -434,6 +440,7 @@
 				B0322A5B19CEA11000F9FDA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0322A5C19CEA11000F9FDA8 /* Build configuration list for PBXNativeTarget "STTweetLabelProblemTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +449,7 @@
 				B0322A5E19CEA11000F9FDA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
