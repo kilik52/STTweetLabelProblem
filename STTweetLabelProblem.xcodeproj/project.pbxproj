@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0322A3C19CEA11000F9FDA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0322A3B19CEA11000F9FDA8 /* main.m */; };
+		B0322A3F19CEA11000F9FDA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0322A3E19CEA11000F9FDA8 /* AppDelegate.m */; };
+		B0322A4219CEA11000F9FDA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0322A4119CEA11000F9FDA8 /* ViewController.m */; };
+		B0322A4519CEA11000F9FDA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0322A4319CEA11000F9FDA8 /* Main.storyboard */; };
+		B0322A4719CEA11000F9FDA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0322A4619CEA11000F9FDA8 /* Images.xcassets */; };
+		B0322A4A19CEA11000F9FDA8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0322A4819CEA11000F9FDA8 /* LaunchScreen.xib */; };
+		B0322A5619CEA11000F9FDA8 /* STTweetLabelProblemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0322A5519CEA11000F9FDA8 /* STTweetLabelProblemTests.m */; };
+		B0322A6419CEA11A00F9FDA8 /* STTweetLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0322A6119CEA11A00F9FDA8 /* STTweetLabel.m */; };
+		B0322A6519CEA11A00F9FDA8 /* STTweetTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = B0322A6319CEA11A00F9FDA8 /* STTweetTextStorage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0322A5019CEA11000F9FDA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0322A2E19CEA11000F9FDA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0322A3519CEA11000F9FDA8;
+			remoteInfo = STTweetLabelProblem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0322A3619CEA11000F9FDA8 /* STTweetLabelProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STTweetLabelProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0322A3A19CEA11000F9FDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0322A3B19CEA11000F9FDA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0322A3D19CEA11000F9FDA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0322A3E19CEA11000F9FDA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0322A4019CEA11000F9FDA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0322A4119CEA11000F9FDA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0322A4419CEA11000F9FDA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0322A4619CEA11000F9FDA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0322A4919CEA11000F9FDA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B0322A4F19CEA11000F9FDA8 /* STTweetLabelProblemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STTweetLabelProblemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0322A5419CEA11000F9FDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0322A5519CEA11000F9FDA8 /* STTweetLabelProblemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STTweetLabelProblemTests.m; sourceTree = "<group>"; };
+		B0322A6019CEA11A00F9FDA8 /* STTweetLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTweetLabel.h; sourceTree = "<group>"; };
+		B0322A6119CEA11A00F9FDA8 /* STTweetLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTweetLabel.m; sourceTree = "<group>"; };
+		B0322A6219CEA11A00F9FDA8 /* STTweetTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTweetTextStorage.h; sourceTree = "<group>"; };
+		B0322A6319CEA11A00F9FDA8 /* STTweetTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTweetTextStorage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0322A3319CEA11000F9FDA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0322A4C19CEA11000F9FDA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0322A2D19CEA11000F9FDA8 = {
+			isa = PBXGroup;
+			children = (
+				B0322A3819CEA11000F9FDA8 /* STTweetLabelProblem */,
+				B0322A5219CEA11000F9FDA8 /* STTweetLabelProblemTests */,
+				B0322A3719CEA11000F9FDA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0322A3719CEA11000F9FDA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0322A3619CEA11000F9FDA8 /* STTweetLabelProblem.app */,
+				B0322A4F19CEA11000F9FDA8 /* STTweetLabelProblemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0322A3819CEA11000F9FDA8 /* STTweetLabelProblem */ = {
+			isa = PBXGroup;
+			children = (
+				B0322A5F19CEA11A00F9FDA8 /* STTweetLabel */,
+				B0322A3D19CEA11000F9FDA8 /* AppDelegate.h */,
+				B0322A3E19CEA11000F9FDA8 /* AppDelegate.m */,
+				B0322A4019CEA11000F9FDA8 /* ViewController.h */,
+				B0322A4119CEA11000F9FDA8 /* ViewController.m */,
+				B0322A4319CEA11000F9FDA8 /* Main.storyboard */,
+				B0322A4619CEA11000F9FDA8 /* Images.xcassets */,
+				B0322A4819CEA11000F9FDA8 /* LaunchScreen.xib */,
+				B0322A3919CEA11000F9FDA8 /* Supporting Files */,
+			);
+			path = STTweetLabelProblem;
+			sourceTree = "<group>";
+		};
+		B0322A3919CEA11000F9FDA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0322A3A19CEA11000F9FDA8 /* Info.plist */,
+				B0322A3B19CEA11000F9FDA8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0322A5219CEA11000F9FDA8 /* STTweetLabelProblemTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0322A5519CEA11000F9FDA8 /* STTweetLabelProblemTests.m */,
+				B0322A5319CEA11000F9FDA8 /* Supporting Files */,
+			);
+			path = STTweetLabelProblemTests;
+			sourceTree = "<group>";
+		};
+		B0322A5319CEA11000F9FDA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0322A5419CEA11000F9FDA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0322A5F19CEA11A00F9FDA8 /* STTweetLabel */ = {
+			isa = PBXGroup;
+			children = (
+				B0322A6019CEA11A00F9FDA8 /* STTweetLabel.h */,
+				B0322A6119CEA11A00F9FDA8 /* STTweetLabel.m */,
+				B0322A6219CEA11A00F9FDA8 /* STTweetTextStorage.h */,
+				B0322A6319CEA11A00F9FDA8 /* STTweetTextStorage.m */,
+			);
+			path = STTweetLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0322A3519CEA11000F9FDA8 /* STTweetLabelProblem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0322A5919CEA11000F9FDA8 /* Build configuration list for PBXNativeTarget "STTweetLabelProblem" */;
+			buildPhases = (
+				B0322A3219CEA11000F9FDA8 /* Sources */,
+				B0322A3319CEA11000F9FDA8 /* Frameworks */,
+				B0322A3419CEA11000F9FDA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STTweetLabelProblem;
+			productName = STTweetLabelProblem;
+			productReference = B0322A3619CEA11000F9FDA8 /* STTweetLabelProblem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0322A4E19CEA11000F9FDA8 /* STTweetLabelProblemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0322A5C19CEA11000F9FDA8 /* Build configuration list for PBXNativeTarget "STTweetLabelProblemTests" */;
+			buildPhases = (
+				B0322A4B19CEA11000F9FDA8 /* Sources */,
+				B0322A4C19CEA11000F9FDA8 /* Frameworks */,
+				B0322A4D19CEA11000F9FDA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0322A5119CEA11000F9FDA8 /* PBXTargetDependency */,
+			);
+			name = STTweetLabelProblemTests;
+			productName = STTweetLabelProblemTests;
+			productReference = B0322A4F19CEA11000F9FDA8 /* STTweetLabelProblemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0322A2E19CEA11000F9FDA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = mirroon;
+				TargetAttributes = {
+					B0322A3519CEA11000F9FDA8 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B0322A4E19CEA11000F9FDA8 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = B0322A3519CEA11000F9FDA8;
+					};
+				};
+			};
+			buildConfigurationList = B0322A3119CEA11000F9FDA8 /* Build configuration list for PBXProject "STTweetLabelProblem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0322A2D19CEA11000F9FDA8;
+			productRefGroup = B0322A3719CEA11000F9FDA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0322A3519CEA11000F9FDA8 /* STTweetLabelProblem */,
+				B0322A4E19CEA11000F9FDA8 /* STTweetLabelProblemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0322A3419CEA11000F9FDA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0322A4519CEA11000F9FDA8 /* Main.storyboard in Resources */,
+				B0322A4A19CEA11000F9FDA8 /* LaunchScreen.xib in Resources */,
+				B0322A4719CEA11000F9FDA8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0322A4D19CEA11000F9FDA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0322A3219CEA11000F9FDA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0322A4219CEA11000F9FDA8 /* ViewController.m in Sources */,
+				B0322A6419CEA11A00F9FDA8 /* STTweetLabel.m in Sources */,
+				B0322A6519CEA11A00F9FDA8 /* STTweetTextStorage.m in Sources */,
+				B0322A3F19CEA11000F9FDA8 /* AppDelegate.m in Sources */,
+				B0322A3C19CEA11000F9FDA8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0322A4B19CEA11000F9FDA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0322A5619CEA11000F9FDA8 /* STTweetLabelProblemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0322A5119CEA11000F9FDA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0322A3519CEA11000F9FDA8 /* STTweetLabelProblem */;
+			targetProxy = B0322A5019CEA11000F9FDA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0322A4319CEA11000F9FDA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0322A4419CEA11000F9FDA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0322A4819CEA11000F9FDA8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0322A4919CEA11000F9FDA8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0322A5719CEA11000F9FDA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0322A5819CEA11000F9FDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0322A5A19CEA11000F9FDA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = STTweetLabelProblem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0322A5B19CEA11000F9FDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = STTweetLabelProblem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B0322A5D19CEA11000F9FDA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = STTweetLabelProblemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STTweetLabelProblem.app/STTweetLabelProblem";
+			};
+			name = Debug;
+		};
+		B0322A5E19CEA11000F9FDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = STTweetLabelProblemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STTweetLabelProblem.app/STTweetLabelProblem";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0322A3119CEA11000F9FDA8 /* Build configuration list for PBXProject "STTweetLabelProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0322A5719CEA11000F9FDA8 /* Debug */,
+				B0322A5819CEA11000F9FDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0322A5919CEA11000F9FDA8 /* Build configuration list for PBXNativeTarget "STTweetLabelProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0322A5A19CEA11000F9FDA8 /* Debug */,
+				B0322A5B19CEA11000F9FDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0322A5C19CEA11000F9FDA8 /* Build configuration list for PBXNativeTarget "STTweetLabelProblemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0322A5D19CEA11000F9FDA8 /* Debug */,
+				B0322A5E19CEA11000F9FDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0322A2E19CEA11000F9FDA8 /* Project object */;
+}
